@@ -18,6 +18,7 @@ The official implementation of GFT, a cross-domain cross-task foundation model o
 
 Authored by [Zehong Wang](https://zehong-wang.github.io/), [Zheyuan Zhang](https://jasonzhangzy1757.github.io/), [Nitesh V Chawla](https://niteshchawla.nd.edu/), [Chuxu Zhang](https://chuxuzhang.github.io/), and [Yanfang Ye](http://yes-lab.org/).
 
+Please contact `zwang43@nd.edu` or open an issue if you have questions.
 
 ## Overview
 
@@ -321,10 +322,6 @@ The experimental results may vary due to the randomized initialization during pr
 | **Reported** | 78.62 ± 1.21 | 77.19 ± 1.99 | 79.39 ± 0.42 | 71.93 ± 0.12 | 91.91 ± 0.34 | 89.72 ± 0.20 | 72.67 ± 1.38 | 77.90 ± 0.64 | 79.92   |
 
 To better ensure the reproducibility, we provide the checkpoints of **Seed = 1** in [this link](https://drive.google.com/file/d/1fuXyHORZLHSwA4PyjoazYYDH4iEk0xYL/view?usp=sharing). We select this due to its best average performance. You can unzip the downloaded file in the path `ckpts/pretrain_model/`, and set the `--pt_seed 1` when using `finetune.py` to delicately leverage our provided checkpoints. 
-
-## Contact Us
-
-Please contact `zwang43@nd.edu` or open an issue if you have questions.
 
 ## Citation
 
